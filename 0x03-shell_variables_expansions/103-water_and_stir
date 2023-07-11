@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((bestchol#10#$(($((water#WATER))+$((stir#STIR))))))
+echo $(($((water#WATER))+$((stir#STIR)))) > num | $((bestchol#10#$num))
