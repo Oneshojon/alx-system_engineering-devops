@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "ibase=10 obase=bestchol $((( "ibase=water obase=10 WATER" | bc) + ( "ibase=stir obase=10 STIR" | bc )))" | bc
+echo "$((bestchol#10#$(($((water#WATER))+$((stir#STIR))))))"
