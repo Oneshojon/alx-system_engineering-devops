@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Use ps command to display process information
 
 ps auxf | grep 'bash'
