@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# shellcheck disable=SC2009
+
+# Use ps command to display process information
+# -e: Select all processes
+# -o: Define output format
+# --forest: Display process hierarchy
+# grep 'bash': Filter lines containing the word 'bash'
+ps aux --forest | grep 'bash'

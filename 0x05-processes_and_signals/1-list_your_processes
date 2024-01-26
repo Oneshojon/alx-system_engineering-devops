@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Use ps command to display process information
+# -e: Select all processes
+# -o: Define output format
+# --forest: Display process hierarchy
+ps aux --forest
