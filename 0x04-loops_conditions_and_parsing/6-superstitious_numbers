@@ -21,5 +21,5 @@ do
 			echo $counter
 			;;
 	esac
-			((counter++))			
+	((counter++))			
 done
