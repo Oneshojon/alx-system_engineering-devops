@@ -7,4 +7,4 @@
 # -o: Define output format
 # --forest: Display process hierarchy
 # grep 'bash': Filter lines containing the word 'bash'
-ps aux --forest | grep 'bash'
+ps auxf | grep 'bash'
