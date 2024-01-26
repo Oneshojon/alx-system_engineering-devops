@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Prints the message infinitely
+
 while true
 do
 	echo "To infinity and beyond"
