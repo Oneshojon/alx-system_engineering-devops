@@ -1,8 +1,4 @@
 #!/bin/bash
 # Use ps command to display process information
-# -e: Select all processes
-# -o: Define output format
-# --forest: Display process hierarchy
-# grep 'bash': Filter lines containing the 
 
 ps auxf | grep 'bash'
