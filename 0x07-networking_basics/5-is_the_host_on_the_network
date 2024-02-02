@@ -5,5 +5,6 @@ if [ -z "$1" ]
 then
   echo "Usage: $0 {IP_ADDRESS}"
 else
-  ping -c 5 "$1"
+	result=$(ping -c 5 "$1")
+	echo "$result"
 fi
